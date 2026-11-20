@@ -34,7 +34,7 @@ WORKDIR /home/openchamber
 
 ENV HOME=/home/openchamber
 ENV NPM_CONFIG_PREFIX=/home/openchamber/.npm-global
-ENV PATH=/home/openchamber/.npm-global/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin
+ENV PATH=/home/openchamber/.npm-global/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bun-node-fallback-bin
 ENV NODE_ENV=production
 ENV LANG=C.UTF-8
 ENV OPENCHAMBER_HOST=0.0.0.0
